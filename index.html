@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Siya — Portfolio</title>
+  <meta name="description" content="Personal portfolio showcasing my work and experience.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@400;500;600;700&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="header">
+    <nav class="nav">
+      <a href="#" class="nav-logo">Siya Arora</a>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#work">Work</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <button class="nav-toggle" aria-label="Toggle menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <h1 class="hero-title">
+        Hi, I am Siya.
+      </h1>
+      <p class="hero-subtitle">
+        CS & UI/UX @ USFCA
+      </p>
+      <div class="hero-cta">
+        <a href="#work" class="btn btn-primary">View Work</a>
+        <a href="#contact" class="btn btn-secondary">Get in Touch</a>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <div class="about-content">
+        <img src="assets/siya.jpg" alt="Siya" class="about-image">
+        <div>
+        <h2 class="about-heading">About me</h2>
+        <p class="about-text">
+          Hi, I'm Siya Arora, a Computer Science student with a UI/UX minor interested in building technology that blends software, product strategy, and thoughtful design. I am currently employed as a Student AI Researcher at the University of San Francisco. I build AI agents for practical applications.
+        </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="experience" class="section">
+      <div class="section-header">
+        <h2 class="section-title">Experience</h2>
+      </div>
+      <div class="experience-grid">
+        <article class="project-card experience-card">
+          <div class="project-image">
+            <img src="assets/ai-researcher.png" alt="Siya at an AI event" class="project-photo">
+          </div>
+          <div class="project-info">
+            <h3 class="project-title">AI Student Researcher</h3>
+            <p class="project-desc">University of San Francisco, 2025–Present</p>
+            <ul class="experience-bullets">
+              <li>Built Privacy Policy AI agent — evaluating vendors’ privacy policy based on USF standards</li>
+              <li>Created NTA document —> USF standard NTA formatted document for official processing (AI agent)</li>
+              <li>Worked across no-code platforms including Stack AI, Replit, and n8n</li>
+            </ul>
+          </div>
+        </article>
+
+        <article class="project-card experience-card">
+          <div class="project-image">
+            <img src="assets/instructor.png" alt="Group photo from teaching experience" class="project-photo">
+          </div>
+          <div class="project-info">
+            <h3 class="project-title">Instructor</h3>
+            <p class="project-desc">University of San Francisco, June 2024</p>
+            <ul class="experience-bullets">
+              <li>Instructor for a high school course on Intro to Java, 3D Printing, and Robotics</li>
+              <li>Created 50+ slides with real-world problems</li>
+              <li>Daily team meetings / team collaboration</li>
+            </ul>
+          </div>
+        </article>
+
+        <article class="project-card experience-card">
+          <div class="project-image">
+            <img src="assets/cisco-intern.png" alt="Siya at Cisco during her summer internship" class="project-photo intern-photo">
+          </div>
+          <div class="project-info">
+            <h3 class="project-title">Summer Intern</h3>
+            <p class="project-desc">Cisco, July 2022</p>
+            <ul class="experience-bullets">
+              <li>Developed a prototype app in Figma to address hybrid work challenges, focusing on improving team collaboration</li>
+              <li>Presented the app to Cisco professionals and received feedback for refinement</li>
+            </ul>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="work" class="section">
+      <div class="section-header">
+        <span class="section-label">Work</span>
+        <h2 class="section-title">Selected projects</h2>
+      </div>
+      <div class="projects-grid">
+        <article class="project-card">
+          <div class="project-image">
+            <div class="project-placeholder">01</div>
+          </div>
+          <div class="project-info">
+            <h3 class="project-title">AI Grocery Evaluator</h3>
+            <p class="project-desc">AI powered app evaluating groceries. Ingredients which are good to consume and not.</p>
+            <a href="#" class="project-link">View project →</a>
+          </div>
+        </article>
+        <article class="project-card">
+          <div class="project-image">
+            <a href="assets/friend-birthday-magazine.pdf" target="_blank" rel="noopener noreferrer" aria-label="Open birthday magazine PDF">
+              <img src="assets/friend-birthday-magazine-cover.png" alt="Cover preview of a birthday magazine Siya designed for her friend" class="project-photo project-cover-photo">
+            </a>
+          </div>
+          <div class="project-info">
+            <h3 class="project-title">Birthday Magazine</h3>
+            <p class="project-desc">Made a magazine for my friend&rsquo;s birthday. Created and designed it myself. Take a look.</p>
+            <a href="assets/friend-birthday-magazine.pdf" target="_blank" rel="noopener noreferrer" class="project-link">View PDF →</a>
+          </div>
+        </article>
+        <article class="project-card">
+          <div class="project-image">
+            <a href="https://siyaroraa.github.io/me/" target="_blank" rel="noopener noreferrer" aria-label="Open photography website">
+              <img src="assets/photography-website-cover.jpg" alt="Golden Gate Bridge night photograph used for the photography website project" class="project-photo photography-cover-photo">
+            </a>
+          </div>
+          <div class="project-info">
+            <h3 class="project-title">Photography Website</h3>
+            <p class="project-desc">I love photography. Created a website with the pictures I have clicked so far.</p>
+            <a href="https://siyaroraa.github.io/me/" target="_blank" rel="noopener noreferrer" class="project-link">View website →</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact-section">
+      <div class="section-header">
+        <span class="section-label">Contact</span>
+        <h2 class="section-title">Let's connect</h2>
+      </div>
+      <p class="contact-text">
+        I'm always open to new opportunities and conversations. Feel free to reach out.
+      </p>
+      <div class="contact-links">
+        <a href="mailto:realsiyaarora@gmail.com" class="contact-link">realsiyaarora@gmail.com</a>
+        <a href="https://www.linkedin.com/in/siya-arora/" target="_blank" rel="noopener noreferrer" class="contact-link">LinkedIn</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>© 2025 Siya. Crafted with care.</p>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
